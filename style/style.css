@@ -1,0 +1,389 @@
+.audi-xcontents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.your-audi {
+    display: flex;
+    width: 1520px;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.your-audi h1 {
+    font-size: 30px;
+    font-family: "Audi Type ExBold";
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.your-audi .desc {
+    margin-bottom: 12px;
+    font-size: 16px;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.your-audi .clic{
+    font-weight: bold;
+}
+
+.audi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 8px;
+}
+
+.fgaudi-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+}
+
+.preview-image img {
+    width: 100%;
+    max-height: 295px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.fgaudi-item span {
+    margin-left: 7px;
+    font-weight: normal;
+    font-style: normal
+}
+
+.clic-date {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Audi Type Normal';
+    width: 100%;
+}
+
+.first-slide {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.first-slide img{
+    width: 100%;
+    margin-top: -460px;
+}
+
+.first-slide-texts {
+    position: absolute;
+    bottom: 525px;
+    left: 142px;
+}
+
+.slide1-main-text {
+    font-family: 'Audi Type ExNormal';
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.slide1-sub-text {
+    font-size: 18px;
+    color: white;
+    font-family: 'Audi Type Exbold';
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.slide1-button {
+    margin-top: 7px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 19px 33px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.models {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: -490px;
+    flex-direction: column;
+}
+
+.models .title {
+    margin-top: 20px;
+    margin-left: 53px;
+    text-underline-offset: 5px; 
+}
+
+.cars-grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+.cars {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cars img {
+    width: 210px;
+}
+.car-name {
+    margin-top: 7px;
+}
+
+.celibration {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits {
+    margin-top: 110px;
+    max-width: 1560px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents {
+   margin-left:60px; 
+}
+
+.benefits img, .audi-asset img {
+    width: 100%;
+}
+
+.audi-asset img{
+    height: 720px;
+}
+
+.audi-asset {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1560px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.celibration button {
+    margin-top: 7px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    border: none;
+    padding: 19px 33px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.celibration p {
+    font-family: 'Audi Type ExNormal';
+    font-weight: 400;
+    font-size: 33px;
+    color: #333333;
+    letter-spacing: -1px;
+    width: 90%;
+}
+
+.sec-slide{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.pop-contents {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 360px;
+    left: 65px;
+    padding: 60px;
+    width: 625px;
+}
+
+.pop-main-text {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 24px;
+    font-family: 'Audi Type ExBold';
+    font-weight: bold;
+}
+
+.pop-sub-text {
+    width: 600px;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 32px;
+    font-family: 'Audi Type Normal';
+    font-style: normal;
+    line-height: 25px;
+}
+
+.pop-b1, .pop-b2 {
+    font-family: 'Audi Type Normal';
+    font-style: normal;
+    padding: 16px 32px;
+    font-size: 17px;
+}
+
+.pop-b1 {
+    color: white;
+    background-color: black;
+    border: solid 1px #000000;
+}
+
+.pop-b2 {
+    border: solid 1px #000000;
+    color: black;
+    background-color: transparent;
+}
+
+.pop-background {
+    width: 100%;
+}
+
+.pop-background img {
+    width: 100%;
+}
+
+.parallax {
+    background-image: url('/Audi/images/E-tronHub-3840X4000.webp');
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(0, 0, 0);
+}
+
+.map {
+    width: 100%;
+}
+
+.location-contents {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loc-align {
+    width: 100%;
+    background-color: #000000;
+    padding-left: 80px;
+}
+
+.location-contents h1{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Audi Type ExNormal';
+    margin-top: 30px;
+}
+
+.location-contents button{
+    background-color: transparent;
+    border: solid 1.8px white;
+    color: white;
+    width: 240px;
+    height: 55px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.connect-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.audi-connect {
+    width: 100%;
+    height: 100%;
+}
+
+.connect-contents {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cnt-align {
+    width: 100%;
+    background-color: #000000;
+    padding-left: 80px;
+}
+
+.connect-contents p{
+    color: white;
+    font-size: 32px;
+    width: 80%;
+    font-family: 'Audi Type ExNormal';
+    margin-bottom: 0px;
+    line-height: 48px;
+}
+
+.connect-contents h1{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Audi Type ExNormal';
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cnt-buttons button{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 55px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-right: 2px;
+}
